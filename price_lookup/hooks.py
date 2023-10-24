@@ -4,7 +4,7 @@ app_name = "price_lookup"
 app_title = "Price Lookup"
 app_publisher = "Hardik Gadesha"
 app_description = "Get Item Last Price History & Margin"
-app_email = "developer.erpnext@gmail.com"
+app_email = "hardikgadesha@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>
