@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include price_lookup *.css
+recursive-include price_lookup *.csv
+recursive-include price_lookup *.html
+recursive-include price_lookup *.ico
+recursive-include price_lookup *.js
+recursive-include price_lookup *.json
+recursive-include price_lookup *.md
+recursive-include price_lookup *.png
+recursive-include price_lookup *.py
+recursive-include price_lookup *.svg
+recursive-include price_lookup *.txt
+recursive-exclude price_lookup *.pyc
