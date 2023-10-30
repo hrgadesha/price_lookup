@@ -2,6 +2,9 @@
 
 ![price_lookup_settings](https://github.com/hrgadesha/price_lookup/assets/62712470/871ab0eb-ebd9-4b1d-9d82-558c9efa0844)
 
+**Item Wise History**
+
+![price_lookup](https://github.com/hrgadesha/price_lookup/assets/62712470/eef9b1bf-730a-4814-ae74-19241f30afb1)
 
 **1) Track Item Price Historical Data while Placing Quotation (All Party)**
 
