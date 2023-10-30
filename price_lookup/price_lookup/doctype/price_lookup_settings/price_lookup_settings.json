@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "creation": "2023-10-27 18:16:00.237683",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_information",
+  "section_break_fefil",
+  "quotation_historical_data_limit",
+  "sales_order_historical_data_limit"
+ ],
+ "fields": [
+  {
+   "default": "3",
+   "fieldname": "quotation_historical_data_limit",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Quotation Historical Data Limit"
+  },
+  {
+   "default": "3",
+   "fieldname": "sales_order_historical_data_limit",
+   "fieldtype": "Int",
+   "label": "Sales Order Historical Data Limit"
+  },
+  {
+   "fieldname": "basic_information",
+   "fieldtype": "HTML",
+   "label": "Basic Information",
+   "options": "<strong>Below settings will helpful to fetch number of historical data as per days configured</strong>",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_fefil",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-10-27 18:20:51.305987",
+ "modified_by": "Administrator",
+ "module": "Price Lookup",
+ "name": "Price Lookup Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
