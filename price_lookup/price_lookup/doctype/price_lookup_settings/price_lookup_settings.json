@@ -9,7 +9,10 @@
   "basic_information",
   "section_break_fefil",
   "quotation_historical_data_limit",
-  "sales_order_historical_data_limit"
+  "sales_order_historical_data_limit",
+  "column_break_dwrav",
+  "rfq_historical_data_limit",
+  "supplier_quotation_historical_data_limit"
  ],
  "fields": [
   {
@@ -35,12 +38,28 @@
   {
    "fieldname": "section_break_fefil",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_dwrav",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "3",
+   "fieldname": "rfq_historical_data_limit",
+   "fieldtype": "Int",
+   "label": "RFQ Historical Data Limit"
+  },
+  {
+   "default": "3",
+   "fieldname": "supplier_quotation_historical_data_limit",
+   "fieldtype": "Int",
+   "label": "Supplier Quotation Historical Data Limit"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-10-27 18:20:51.305987",
+ "modified": "2023-11-28 12:19:46.268991",
  "modified_by": "Administrator",
  "module": "Price Lookup",
  "name": "Price Lookup Settings",
