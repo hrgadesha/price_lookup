@@ -7,8 +7,7 @@ def get_price_history(item_code = None, history_based_on = None, party = None):
 
     conditions = " and sup_qtn_item.item_code = '{0}'".format(item_code)
 
-    if history_based_on == "Selected Party":
-        conditions += " and sup_qtn.supplier = '{0}'".format(party)
+
 
     sup_quote_item_details = frappe.db.sql("""
         select 
