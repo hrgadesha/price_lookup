@@ -10,6 +10,7 @@
   "section_break_fefil",
   "quotation_historical_data_limit",
   "sales_order_historical_data_limit",
+  "purchase_order_historical_data_limit",
   "column_break_dwrav",
   "rfq_historical_data_limit",
   "supplier_quotation_historical_data_limit"
@@ -54,12 +55,18 @@
    "fieldname": "supplier_quotation_historical_data_limit",
    "fieldtype": "Int",
    "label": "Supplier Quotation Historical Data Limit"
+  },
+  {
+   "default": "3",
+   "fieldname": "purchase_order_historical_data_limit",
+   "fieldtype": "Int",
+   "label": "Purchase Order Historical Data Limit"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-11-28 12:19:46.268991",
+ "modified": "2023-12-21 10:39:27.739490",
  "modified_by": "Administrator",
  "module": "Price Lookup",
  "name": "Price Lookup Settings",
